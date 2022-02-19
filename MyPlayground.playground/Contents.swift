@@ -21,3 +21,12 @@ for name in fruitNames{
 
 //Part 8: Introduction to array indexes
 print(fruitNames[1])
+
+//Part 9: Problem Set
+var carNames: [String]
+carNames = ["Rolls Royce", "Lamborghini", "Ferrari", "Bugatti", "Mercedes-Benz", "Pagani", "Bentley", "Mclaren"]
+
+for name in carNames{
+    print(name + "is a very expensive car")
+}
+print(carNames[0])
